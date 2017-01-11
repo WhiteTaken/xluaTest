@@ -1,0 +1,13 @@
+print("hello world")
+local mLocal=CS.MClass
+local obj=mLocal()
+obj:Test()
+
+table1={x=1,y=2}
+table2={x=3,y=6}
+
+function funs(a)
+	print("......",a)
+end
+obj:SetParma(table1,funs,table2)
+print("a",table2.a)
